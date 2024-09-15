@@ -59,7 +59,7 @@ public class AppConfig {
 ## Bora de Exemplo Funcional:
 A seguir, um exemplo completo de uma aplicação Spring que utiliza **beans e a injeção de dependências**:
 
-````
+````java
 // Definição dos Beans
 @Component
 class MyService {
@@ -68,7 +68,7 @@ return "Serviço executado com sucesso!";
   }
 }
 ````
-````
+````java
 @Component
 class MyController {
 private final MyService myService;
@@ -84,7 +84,7 @@ private final MyService myService;
     }
 }
 ````
-````
+````java
 public class Application {
 public static void main(String[] args) {
 
